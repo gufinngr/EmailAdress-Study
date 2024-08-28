@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #dde2ff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-main{
+  background-color: #fff;
+  width: 750px;
+  margin: 250px auto;
+  padding: 80px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 0px #ffffff50;
+}
+
+.container-main .text h2{
+  font-size: 35px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.container-main .text {
+  color: #24263f;
+}
+
+.container-main .text p {
+  font-weight: lighter;
+  text-align: center;
+  width: 600px;
+  margin: 7px;
+  font-size: 20px;
+}
+
+.container-main .caixa-de-entrada{
+  display: flex;
+}
+
+.container-main .caixa-de-entrada input[type=email]{
+  border-color: #24263f;
+  border: none;
+  padding: 15px;
+  padding-right: 230px;
+  font-size: 17px;
+  border: solid 1px #494d7e34;
+  border-radius: 5px;
+  margin: 10px 4px;
+  transition: 0.0s;
+}
+
+input:focus, select:focus {
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+  outline: 0;
+} 
+
+.container-main .caixa-de-entrada input[type=email]:after{
+  border: none;
+}
+
+::-webkit-input-placeholder {
+  color: #494d7e65;
+}
+
+.container-main .caixa-de-entrada a input[type=submit]{
+  border: none;
+  background-color: #24263f;
+  color: #fff;
+  border-radius: 7px;
+  font-size: 18px;
+  padding: 15px 25px;
+  margin: 10px auto;
+  margin-left: 15px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.container-main .caixa-de-entrada a input[type=submit]:hover{
+  background-color: #dde2ff;
+  color: #24263f8f;
+}
+
+.desc{
+  display: flex;
+  margin-top: 5px;
+}
+
+.container-main .desc input[type=checkbox] {
+  border: 0px;
+  width: 20px;
+  height: 20px;
+
+}
+
+.container-main .desc p{
+  margin: -5px 10px;
+  font-size: 12px;
+  color: #333658;
+}
+
+
+
+
+
+/* write your CSS here */
